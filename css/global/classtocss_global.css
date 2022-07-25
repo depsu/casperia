@@ -1,0 +1,11 @@
+/**
+* The classToCSS plugin automatically generates global style
+* Changes are invalid and will be overwritten
+*/
+.flex { display: flex; } 
+.flex1 { display: flex1; } 
+.flex2 { display: flex2; } 
+.flex3 { display: flex3; } 
+.flex4 { display: flex4; } 
+.flex5 { display: flex5; } 
+.flex6 { display: flex6; } 

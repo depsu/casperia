@@ -1,0 +1,313 @@
+@font-face {
+    font-family:roboto;
+    src: url(/fuentes/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family:roboto-bold;
+    src: url(/fuentes/Roboto/Roboto-Bold.ttf);
+}
+
+
+@font-face {
+    font-family:roboto-black;
+    src: url(/fuentes/Roboto/Roboto-black.ttf);
+}
+
+*{
+    font-family: roboto;
+}
+
+/*botones*/
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #FFFFFF !important;
+}
+
+.buttom-primary {
+    width: 153px;
+    height: 46px;
+    background: #7206B7;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border:none;
+}
+
+input,
+select {
+    height: 42px;
+}
+
+textarea {
+    height: 268px;
+}
+
+input,
+select,
+textarea {
+    padding-left: 1em;
+    border: 0px;
+
+    background: #FFFFFF;
+    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/*Textos*/
+h1 {
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 76px;
+    color: #7206B7;
+
+
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 20px;
+    color: #000000;
+
+
+}
+
+.titulo {
+    font-family: roboto-bold;
+
+    max-width: 500px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    padding: 30px 0;
+
+    text-align: center;
+    
+}
+
+.subtitulo {
+    max-width: 500px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+
+    padding-bottom: 30px;
+    padding-top: 1em;
+}
+
+label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+/*carrusel*/
+.splide__arrow {
+    background-color: #7206B7 !important;
+    opacity: 1 !important;
+
+    width: 2.5em !important;
+    height: 2.5em !important;
+}
+
+.splide__arrow--prev svg,
+.splide__arrow svg {
+    filter: invert(108%);
+}
+
+.splide__arrow--prev {
+    left: -1em !important;
+}
+
+.splide__arrow--next {
+    right: -1em !important;
+}
+
+@media (max-width:1232px) and (min-width:750px) {
+    .splide__track {
+        margin: 0 2em !important;
+    }
+
+    .splide__arrow--prev {
+        left: 1em !important;
+    }
+
+    .splide__arrow--next {
+        right: 1em !important;
+    }
+}
+
+
+@media (max-width:749px) {
+    .splide__track {
+        margin: 0 2em !important;
+    }
+
+    .splide__arrow--prev {
+        left: 0 !important;
+    }
+
+    .splide__arrow--next {
+        right: 0 !important;
+    }
+}
+
+
+/*padding de secciones */
+
+section {
+    padding: 5em 0;
+}
+
+/*container*/
+
+.container {
+    max-width: 1124px !important;
+
+}
+
+/*automatizar clases */
+
+.centrar {
+    display: flex;
+    margin: 0 auto;
+}
+
+
+
+/*nav*/
+@media (min-width:992px) {
+    .navbar-collapse {
+        flex-basis: unset;
+        flex-grow: unset !important;
+    }
+
+    .navbar-nav li{
+
+        margin-left: 1em;
+    }
+
+    .nav--reservaTuHora {
+        background: #7206B7;
+        border-radius: 4px;
+
+        margin-left: 3em !important;
+    }
+
+  
+    
+}
+
+
+@media (max-width:450px) {
+    .logo-nav {
+        width: 190px;
+    }
+}
+
+
+.nav--reservaTuHora {
+    background: #7206B7;
+    border-radius: 4px;
+}
+
+
+.navbar-nav a {
+
+    color: #7206B7 !important;
+}
+
+.navbar-nav a:hover {
+    color: #600697 !important;
+}
+
+.nav--reservaTuHora a {
+    color: #FFFFFF !important;
+    margin: 0 2em;
+}
+
+.nav--reservaTuHora a:hover {
+    color: #e4dbdb !important;
+}
+
+
+.navbar-light .navbar-toggler-icon {
+    filter: invert(1);
+
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #7206B7;
+}
+
+
+
+/*footer*/
+footer .redes-sociales {
+
+    background-color: #FCCB00;
+
+}
+
+footer .redes-sociales .contenedor-imagenes {
+    justify-content: space-between;
+    max-width: 184px;
+    display: flex;
+    margin: 0 auto;
+    padding: 1em 0;
+
+}
+
+@media (max-width:750px) {
+    footer .contendor-imagen-informacion img{
+        padding-top: 4em;
+    
+    }
+}
+
+footer .contenedor-texto-llamada {
+    padding-left: 29px;
+}
+
+
+
+footer .informacion {
+    background-color: #F6A000;
+}
+
+footer .informacion {
+    color: #ffffff;
+}
+
+footer .horario {
+    margin: 4em 0;
+}
+
+footer .contenedor-telefono {
+    margin: 2em 0;
+
+}
+
+
+

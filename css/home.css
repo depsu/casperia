@@ -1,0 +1,191 @@
+/* 1 nav*/
+
+
+
+
+
+
+
+
+/*3 - Sección especialidades*/
+
+.card-psicologia {
+    background: #7206B7;
+}
+
+.card-terapia {
+    background-color: #08ACE3;
+}
+
+.card-fonoaudiologia {
+    background-color: #00AFAA;
+}
+
+.especialidades .card-especialidad {
+    height: 100px;
+    display: flex;
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+
+.background-card {
+    display: flex;
+    width: 100%;
+}
+
+.contenedor-texto-especialidad {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-basis: 75%;
+}
+
+.contenedor-icono-especialidad {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-basis: 15%;
+}
+
+.contenedor-icono-especialidad img {
+    width: 38px;
+}
+
+.contenedor-texto-especialidad span {
+    margin: auto;
+
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#descripcion-especialidad h2,
+#descripcion-especialidad2,
+#descripcion-especialidad3 {
+    font-family: roboto-black;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 32px;
+    color: #000000;
+
+    padding-bottom: 20px;
+}
+
+#descripcion-especialidad h2 span,
+#descripcion-especialidad2 span,
+#descripcion-especialidad3 span{
+    font-family: roboto-black;
+}
+
+#descripcion-especialidad img {
+    display: flex;
+    margin: 0 auto;
+}
+
+@media (max-width:991px) {
+    .col-informacion-especialidad{
+        order:-1;
+    }
+}
+
+.descripciones-especialidades {
+    padding-top: 40px;
+}
+
+.descripciones-especialidades .row {
+    align-items: center;
+}
+
+
+/*4 Formulario*/
+.formulario {
+    background: #F8F9FD;
+}
+
+.formulario label {
+    display: block;
+
+    padding: 1em 0 0.5em;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+    width: 100%;
+}
+
+.formulario .buttom-primary {
+    margin-top: 1em;
+}
+
+@media (min-width:800px) {
+    .formulario .row {
+        padding: 0 10em;
+    }
+
+
+}
+
+
+/* 5 carrusel especialistas */
+
+.splide__track{
+    margin:0 2em;
+
+}
+
+.contenedor-card-especialista img {
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+/* 6 instagram */
+
+.instagram .row img {
+    display: flex;
+    margin: 0 auto;
+
+    width: 100%;
+}
+
+
+/*7 planes*/
+
+
+
+
+
+/*preguntas y respuestas*/
+
+.accordion-button {
+    margin-top: 2em;
+    background: #7206B7 !important;
+    border-radius: 10px 10px 0px 0px !important;
+    color: #F8F9FD !important;
+    min-height: 75px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 10px !important;
+}
+
+.accordion-button:focus {
+    border-color: #7206B7 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #F8F9FD !important;
+}
+
+.accordion-button::after {
+    filter: invert(108%);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+    transform: rotate(-180deg);
+}
+
+
+

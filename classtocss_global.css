@@ -1,0 +1,7 @@
+/**
+* The classToCSS plugin automatically generates global style
+* Changes are invalid and will be overwritten
+*/
+.align-items-center { align-items: center; } 
+.text-center { text-align: center; } 
+.w-100 { width: 100px; } 

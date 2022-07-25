@@ -1,0 +1,13 @@
+
+
+.informacion-sobre-nosotros h4{
+    font-family: roboto-bold;
+    color:#664092;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.informacion-sobre-nosotros p{
+    text-align: justify;
+}
