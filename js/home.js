@@ -7,6 +7,11 @@ const descripcionEspecialidad3 = document.getElementById('descripcion-especialid
 const descripcionEspecialidad2 = document.getElementById('descripcion-especialidad2')
 const descripcionEspecialidad = document.getElementById('descripcion-especialidad')
 
+
+const flecha1 = document.getElementById('descripcion-especialidad-flecha')
+const flecha2 = document.getElementById('descripcion-especialidad-flecha2')
+const flecha3 = document.getElementById('descripcion-especialidad-flecha3')
+
 cardPsicologia.addEventListener('click',(e)=>{
     
 
@@ -14,6 +19,10 @@ cardPsicologia.addEventListener('click',(e)=>{
         descripcionEspecialidad.style.display = ''
         descripcionEspecialidad2.style.display = 'none'
         descripcionEspecialidad3.style.display = 'none'
+
+        flecha1.style.display = ''
+        flecha2.style.display = 'none'
+        flecha3.style.display = 'none'
     }
 
 })
@@ -25,6 +34,10 @@ cardTerapia.addEventListener('click',(e)=>{
         descripcionEspecialidad2.style.display = ''
         descripcionEspecialidad.style.display = 'none'
         descripcionEspecialidad3.style.display = 'none'
+
+        flecha2.style.display = ''
+        flecha1.style.display = 'none'
+        flecha3.style.display = 'none'
     }
 
 })
@@ -35,6 +48,10 @@ cardFonoaudiologia.addEventListener('click',(e)=>{
         descripcionEspecialidad3.style.display = ''
         descripcionEspecialidad.style.display = 'none'
         descripcionEspecialidad2.style.display = 'none'
+
+        flecha3.style.display = ''
+        flecha2.style.display = 'none'
+        flecha1.style.display = 'none'
     }
 
 })

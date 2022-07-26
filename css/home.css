@@ -31,6 +31,8 @@
 .background-card {
     display: flex;
     width: 100%;
+
+    position: relative;
 }
 
 .contenedor-texto-especialidad {
@@ -45,6 +47,8 @@
     align-items: center;
     height: 100%;
     flex-basis: 15%;
+
+    position: relative;
 }
 
 .contenedor-icono-especialidad img {
@@ -61,8 +65,8 @@
 }
 
 #descripcion-especialidad h2,
-#descripcion-especialidad2,
-#descripcion-especialidad3 {
+#descripcion-especialidad2 h2,
+#descripcion-especialidad3 h2{
     font-family: roboto-black;
     font-weight: 800;
     font-size: 32px;
@@ -73,8 +77,8 @@
 }
 
 #descripcion-especialidad h2 span,
-#descripcion-especialidad2 span,
-#descripcion-especialidad3 span{
+#descripcion-especialidad2 h2 span,
+#descripcion-especialidad3 h2 span{
     font-family: roboto-black;
 }
 
@@ -97,6 +101,30 @@
     align-items: center;
 }
 
+.imagen-especialidad{
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.especialidades__flecha{
+    left: 47px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: -21px;
+}
+
+
+
+@media (max-width:991px) {
+    .especialidades__flecha{
+        display: none !important;
+    }
+
+    .informacion-especialidad{
+        order: -1;
+    }
+}
 
 /*4 Formulario*/
 .formulario {
