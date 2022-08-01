@@ -169,6 +169,26 @@
     margin: 0 auto;
 }
 
+
+.ola{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+}
+
+.ola-texto{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.ola-texto p{
+    margin-bottom:9px;
+    color: #FFFFFF;
+}
+
 /* 6 instagram */
 
 .instagram .row img {
@@ -177,6 +197,7 @@
 
     width: 100%;
 }
+
 
 
 /*7 planes*/

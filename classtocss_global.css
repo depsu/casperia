@@ -1,7 +1,15 @@
 /**
-* The classToCSS plugin automatically generates global style
-* Changes are invalid and will be overwritten
-*/
-.align-items-center { align-items: center; } 
-.text-center { text-align: center; } 
-.w-100 { width: 100px; } 
+ * classToCSS插件自动生成的全局样式，任何手动修改都会被覆盖
+ * 需要手动引入到全局生效的位置，如index.html
+ */
+.text-center { text-align: center; }
+.w-100 { width: 100px; }
+.row { flex-direction: row; }
+/* apply result */
+.app-reset { padding: 0px;margin: 0px;box-sizing: content-box; }
+.mid { display: flex;align-items: center; }
+.center { display: flex;justify-content: center; }
+.mid-center { display: flex;justify-content: center;align-items: center; }
+.mid-between { display: flex;justify-content: space-between;align-items: center; }
+.mid-around { display: flex;justify-content: space-around;align-items: center; }
+.mid-evenly { display: flex;justify-content: space-evenly;align-items: center; }
