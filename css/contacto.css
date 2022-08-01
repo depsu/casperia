@@ -1,16 +1,16 @@
 @media (min-width:991px) {
 
-    .col-sm-12{
+    .contacto .col-sm-12{
         padding: 0;
     }
-    .col-lg-4{
+    .contacto .col-lg-4{
         border: 1px solid #7206B7;
         border-left: 0px;
 
         padding: 0 20px;
     }
 
-    .col-lg-8{
+    .contacto .col-lg-8{
         order:-1;
     }
     
