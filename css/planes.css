@@ -1,0 +1,36 @@
+.contenedor-texto-especialidad {
+    flex-basis: unset;
+    margin: 0 auto;
+}
+
+.banner-background {
+    background-color: #F6A000;
+}
+
+.banner-background h2 {
+    padding: 1em 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+@media (min-width:650px) {
+    .planes .col-sm-12 {
+        padding: 4em;
+        background-color: #F8F9FD;
+    }
+}
+
+@media (max-width:649px) {
+    .planes .col-sm-12 {
+        padding: 2em;
+        background-color: #F8F9FD;
+    }
+}
+
+.planes {
+    padding: 1em 0 4em 0;
+}
