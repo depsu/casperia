@@ -1,0 +1,11 @@
+.ola-texto p{
+    margin-bottom: 15px;
+}
+
+
+@media (min-width:768px) {
+    .especialidad-texto{
+        margin-bottom: 20px !important;
+    }
+    
+}
