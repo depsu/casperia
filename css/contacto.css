@@ -1,0 +1,33 @@
+@media (min-width:991px) {
+
+    .contacto .col-sm-12 {
+        padding: 0;
+    }
+
+    .contacto .col-lg-4 {
+        border: 1px solid #7206B7;
+        border-left: 0px;
+
+        padding: 0 20px;
+    }
+
+
+    .contacto .col-lg-8 {
+        order: -1;
+    }
+
+}
+
+.contacto__titulo{
+    padding-top:1em ;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #7206B7;
+}
+
+.contacto__direccion{
+padding-top:2em;
+}

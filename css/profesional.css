@@ -1,11 +1,63 @@
-.ola-texto p{
-    margin-bottom: 15px;
+
+
+.profesional__especialidad-text {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+    color: #263238;
+
+}
+
+.profesional__nombreApellido-text {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #263238;
+
+    padding-top:1em
 }
 
 
-@media (min-width:768px) {
-    .especialidad-texto{
-        margin-bottom: 20px !important;
-    }
-    
+.descripcion-profesional__titulo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: justify;
+    color: #000000;
 }
+
+
+.profesional{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative
+}
+
+.imagen-content{
+    padding-top:7em;
+    z-index: 100;
+
+    max-width: 100%;
+    padding: 7em 4% 0 4%;
+}
+
+.profesional::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: #F6A000;
+}
+
+
+.profesional__redes-iconos{
+    display: flex;
+    gap:.8em;
+}
+
+.descripcion-profesional__educacion{
+    padding-top:1em;
+} 
