@@ -12,14 +12,17 @@
     <!--estilos globales css-->
     <link rel="shortcut icon" href="/imagenes/icono-pagina.png" />
 
-    <link rel="stylesheet" href="/librerias/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="/librerias/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 
     <link rel="stylesheet" href="/css/global/classtocss_apply.css">
     <link rel="stylesheet" href="/css/main.css">
 
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
- 
+
 
     <!--estilos pagina home css-->
     <link rel="stylesheet" href="/css/home.css">
@@ -65,27 +68,47 @@
         </div>
     </nav>
 
-    <div class="banner container">
-        <img class="w-100" src="/imagenes/home/banner.webp" alt="Psicologia">
-    </div>
+  <div style="background-color: #F8F9FD;">
+      <div class="banner container">
+          <img class="w-100" src="/imagenes/home/banner-home.png" alt="Psicologia">
+      </div>
+  </div>
+
+    <section class="seccion-textos-bienvenida mb-5 d-flex" style="background-color:#F8F9FD;">
+        <div class="text__bienvenido-a-casperia container">
+            <h1 class="text-center">
+                Bienvenido a Casperia
+            </h1>
+            <p class="text-justify pt-5">
+                Centro Casperia nace de una conversación entre familias y terapeutas en las que se hace evidente poder
+                encontrar un solo espacio que brinde atenciones integrales y de calidad, en donde las herramientas que
+                se
+                entregan a cada usuario/a sean de conocimiento tanto por padres/cuidadores como por los terapeutas y que
+                en
+                conjunto conformen el equipo de trabajo con un objetivo en común, mejorar la calidad de vida del usuario
+                y
+                la familia...
+            </p>
+            <a class="buttom-primary float-end mt-5 mb-5" href="/nosotros">leer más</a>
+        </div>
+    </section class="seccion-textos-bienvenida">
 
     <section class="container especialidades">
         <h2 class="titulo">Especialidades</h2>
         <img class="centrar" src="/imagenes/subrayado.png">
-        <p class="subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-            numquam facilis
-            aspernatur maiores, omnis obcaecati nemo</p>
-        <div>
+
+        <div style="padding-top:3em;">
             <div class="row">
-                <div class=" col-lg-4 col-12 card-especialidad ">
-                    <div id="card-psicologia" class="background-card card-psicologia">
+                <div id="card-especialidad" class=" col-lg-4 col-12 card-especialidad ">
+                    <div id="card-fonoaudiologia" class="background-card card-fonoaudiologia">
                         <div class="contenedor-texto-especialidad">
-                            <span>Psicología</span>
+                            <span>Fonoaudiología</span>
                         </div>
                         <div class="contenedor-icono-especialidad">
-                            <img class="mw-100" src="/imagenes/home/icono-psicologia.png" alt="Psicología">
+                            <img class="mw-100" src="/imagenes/home/icono-fonoaudilogia.png" alt="Fonoaudiología">
                         </div>
-                        <img id="descripcion-especialidad-flecha" class="especialidades__flecha" src="/imagenes/home/flecha-1.png">
+                        <img id="descripcion-especialidad-flecha3" style="display:none" class="especialidades__flecha"
+                            src="/imagenes/home/flecha-3.png">
                     </div>
                 </div>
                 <div class=" col-lg-4 col-12 card-especialidad ">
@@ -96,20 +119,25 @@
                         <div class="contenedor-icono-especialidad">
                             <img class="mw-100" src="/imagenes/home/icono-terapia.png" alt="Terapia">
                         </div>
-                        <img id="descripcion-especialidad-flecha2" style="display:none" class="especialidades__flecha" src="/imagenes/home/flecha-2.png">
+                        <img id="descripcion-especialidad-flecha2" style="display:none" class="especialidades__flecha"
+                            src="/imagenes/home/flecha-2.png">
                     </div>
                 </div>
-                <div id="card-especialidad" class=" col-lg-4 col-12 card-especialidad ">
-                    <div id="card-fonoaudiologia" class="background-card card-fonoaudiologia">
+
+                <div class=" col-lg-4 col-12 card-especialidad ">
+                    <div id="card-psicologia" class="background-card card-psicologia">
                         <div class="contenedor-texto-especialidad">
-                            <span>Fonoaudiología</span>
+                            <span>Psicología</span>
                         </div>
                         <div class="contenedor-icono-especialidad">
-                            <img class="mw-100" src="/imagenes/home/icono-fonoaudilogia.png" alt="Fonoaudiología">
+                            <img class="mw-100" src="/imagenes/home/icono-psicologia.png" alt="Psicología">
                         </div>
-                        <img id="descripcion-especialidad-flecha3" style="display:none" class="especialidades__flecha" src="/imagenes/home/flecha-3.png">
+                        <img id="descripcion-especialidad-flecha" class="especialidades__flecha"
+                            src="/imagenes/home/flecha-1.png">
                     </div>
                 </div>
+
+
             </div>
         </div>
 
@@ -131,9 +159,7 @@
                             architecto
                             esse ab dignissimos reprehenderit, impedit numquam earum tempore a optio ipsa.
                         </p>
-                        <a href="" class="buttom-primary">
-                            Button
-                        </a>
+
                     </div>
                 </div>
             </div>
@@ -153,9 +179,7 @@
                             architecto
                             esse ab dignissimos reprehenderit, impedit numquam earum tempore a optio ipsa.
                         </p>
-                        <a href="" class="buttom-primary">
-                            Button
-                        </a>
+
                     </div>
                 </div>
             </div>
@@ -175,17 +199,17 @@
                             architecto
                             esse ab dignissimos reprehenderit, impedit numquam earum tempore a optio ipsa.
                         </p>
-                        <a href="" class="buttom-primary">
-                            Button
-                        </a>
+
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
 
+
+    
     <!--Formulario de contacto-->
     <section class="formulario">
-        <form action="https://formsubmit.co/benjaminchavez77@gmail.com" method="POST" class="container-form">
+        <form action="https://formsubmit.co/contactocentrocasperia@gmail.com" method="POST" class="container-form">
             <h2 class="titulo">Contáctate con Nosotros</h2>
             <img class="centrar" src="/imagenes/subrayado.png" style="padding-bottom:1em;">
 
@@ -195,13 +219,13 @@
                         <div class="col-12 col-lg-6">
                             <label for="">Nombre</label>
                             <input type="text" class="form-contact-input" name="Nombre"
-                                placeholder="Ej: Alejandro Rivera" required />
+                                placeholder="Ej: Nombre Apellido" required />
                         </div>
 
                         <div class="col-12 col-lg-6">
                             <label for="">Teléfono</label>
                             <input type="tel" class="form-contact-input" name="Teléfono"
-                                placeholder="Ej: +56 930153632" />
+                                placeholder="Ej: +56 900000000" />
                         </div>
 
                         <div class="col-12 col-lg-6">
@@ -212,7 +236,8 @@
 
                         <div class="col-12 col-lg-6">
                             <label for="">Especialista</label>
-                            <select class="form-control" id="form-motivo" name="form-motivo">
+
+                            <select class="form-select" id="form-motivo" name="form-motivo">
                                 <option value="">Seleccione</option>
                                 <option value="consultas">Consultas</option>
                                 <option value="reclamos">Reclamos</option>
@@ -238,30 +263,36 @@
     <section class="especialistas container">
         <h2 class="titulo">Nuestros Especialistas</h2>
         <img class="centrar" src="/imagenes/subrayado.png">
-        <p class="subtitulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et venenatis nam enim nunc et nibh
-            tellus elit tincidun</p>
+        <p class="subtitulo">Nuestros profesionales están comprometidos a realizar su trabajo con la mayor competencia
+            profesional y humana. </p>
         <div class="splide splide-especialistas">
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
-                        <div class="contenedor-card-especialista" >
+                        <div class="contenedor-card-especialista">
                             <div class="ola">
-                                <img src="/imagenes/home/ola-nuestros-especialistas.png" alt="ola"> 
+                                <img src="/imagenes/home/ola-nuestros-especialistas.png" alt="ola">
                             </div>
                             <div class="ola-texto">
-                                <p class="nombre-apellido-texto">
-                                    <b>Nombre y Apellido</b>
+                                <p class="nombre-apellido-texto ">
+                                    <b>Valerie García</b>
                                 </p>
                                 <p class="especialidad-texto">
-                                    Especialidad 
-                                </p>
+                                    Fonoaudióloga </p>
                             </div>
-                            <img src="/imagenes/home/especialista-ejemplo.png">
+                            <img src="/imagenes/home/especialista-1.jpg">
                         </div>
                     </li>
                     <li class="splide__slide">
+                        <div class="ola-texto">
+                            <p class="nombre-apellido-texto">
+                                <b>Deborah López</b>
+                            </p>
+                            <p class="especialidad-texto">
+                                Fonoaudióloga </p>
+                        </div>
                         <div class="contenedor-card-especialista">
-                            <img src="/imagenes/home/especialista-ejemplo.png">
+                            <img src="/imagenes/home/especialista-2.jpg">
                         </div>
                     </li>
                     <li class="splide__slide">
@@ -333,51 +364,47 @@
     <section class="preguntas-frecuentes container">
         <h2 class="titulo">Preguntas frecuentes</h2>
         <img class="centrar" src="/imagenes/subrayado.png">
-        <p class="subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-            numquam facilis
-            aspernatur maiores, omnis obcaecati nemo</p>
+
         <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        Accordion Item #1
+                        ¿Quiénes somos?
                     </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
-                        the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    <div class="accordion-body">Centro Casperia nace de una conversación entre familias y terapeutas en
+                        las que se hace evidente poder encontrar un solo espacio que brinde atenciones integrales y de
+                        calidad, en donde las herramientas que se entregan a cada usuario/a sean de conocimiento tanto
+                        por padres/cuidadores como por los terapeutas y que en conjunto conformen el equipo de trabajo
+                        con un objetivo en común, mejorar la calidad de vida del usuario y la familia.
+                    </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        Accordion Item #2
+                        ¿Cuál es nuestra misión?
                     </button>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
-                        the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine
-                        this being filled with some actual content.</div>
+                    <div class="accordion-body"> </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Accordion Item #3
+                        ¿Dónde nos encontramos?
                     </button>
                 </h2>
                 <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
-                        the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
-                        exciting happening here in terms of content, but just filling up the space to make it look, at
-                        least at first glance, a bit more representative of how this would look in a real-world
-                        application.</div>
+                    <div class="accordion-body"></div>
                 </div>
             </div>
 
@@ -389,10 +416,10 @@
         <div class="redes-sociales">
             <div class="contenedor-imagenes">
                 <div>
-                    <img src="/imagenes/footer-facebook.png" alt="facebook">
+                    <a href=""><img src="/imagenes/footer-facebook.png" alt="facebook"></a>
                 </div>
                 <div>
-                    <img src="/imagenes/footer-instagram.png" alt="instagram">
+                    <a href=""><img src="/imagenes/footer-instagram.png" alt="instagram"></a>
                 </div>
             </div>
         </div>
@@ -420,7 +447,7 @@
                         <div class="contenedor-telefono">
                             <img src="/imagenes/footer-llamada.png" alt="llamada">
                             <span class="telefono">
-                                (123) 456-7890 <br>
+                                (+569) 5413 5585<br>
                             </span>
                         </div>
                         <img src="/imagenes/footer-ubicacion.png" alt="llamada">
@@ -428,11 +455,14 @@
                     </div>
                 </div>
             </div>
+            <div class="container derechos-reservados">
+                <h5 class="m-0 p-1">Copyright © 2022 <b>Minerva</b>.</h5>
+            </div>
         </div>
-    </footer>   
-     <!--Botón whatsapp-->
-     <a href="https://api.whatsapp.com/send?phone=+569" class="whatsapp" target="_blank"> <i
-        class="fab fa-whatsapp whatsapp-icon"></i></a>
+    </footer>
+    <!--Botón whatsapp-->
+    <a href="https://api.whatsapp.com/send?phone=56954135585" class="whatsapp" target="_blank"> <i
+            class="fab fa-whatsapp whatsapp-icon"></i></a>
 
 
 
@@ -443,8 +473,8 @@
     <!--Global script-->
     <script src="/librerias/bootstrap.bundle.min.js"></script>
     <script src="/js/main.js"></script>
-  
-   
+
+
 </body>
 
 </html>
