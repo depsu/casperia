@@ -19,7 +19,7 @@
     <!--estilos pagina css-->
 
     <link rel="stylesheet" href="/css/home.css">
-    <link rel="stylesheet" href="/css/profesional.css">
+    <link rel="stylesheet" href="/css/contacto.css">
 
 
 </head>
@@ -58,42 +58,80 @@
         </div>
     </nav>
 
-    <div class="profesional">
-        <div class="imagen-content">
-            <img src="/imagenes/profesional/circulo1.png" alt="profesional casperia">
+    <div class="banner-responsive">
+        <picture>
+            <source srcset="/imagenes/banner-colores-superior-mobile.png" media="(min-width: 600px)">
+            <img class="w-100" src="/imagenes/banner-colores-superior.png" alt="MDN">
+        </picture>
+        <div class="container">
+            <h1>Servicios</h1>
         </div>
-        <div class="tituloApellido-content">
-            <p class="profesional__nombreApellido-text">Valerie García</p>
-            <p class="profesional__especialidad-text">Fonoaudióloga</p>
-        </div>
-        <!-- <div class="profesional__redes-iconos">
-            <img src="imagenes/profesional/i-facebook.png">
-            <img src="imagenes/profesional/i-in.png">
-            <img src="imagenes/profesional/i-instagram.png">
-        </div> -->
     </div>
 
-    <section class="descripcion-profesional container" >
-       <div class="row gx-5">
-         <div class="descripcion-profesional__sobre-mi col-sm-6 col-12">
-             <p class="descripcion-profesional__titulo text-left">
-                 Sobre Mi
-             </p>
-             <p>
-                Licenciada en Fonoaudiología, con experiencia y formación en niños/as, adolescentes y adultos con trastornos del neurodesarrollo (TDL, TEA, TDA/H) retraso del desarrollo, hablantes tardíos, selectividad alimentaria, manejo de conductas disruptivas e implementación de sistemas de comunicación aumentativa/alternativa.
-             </p>
-         </div>
-        
-         <div class="descripcion-profesional__educacion descripcion-profesional__sobre-mi col-sm-6 col-12">
-             <p class="descripcion-profesional__titulo text-left">
-                 Educación y Certificaciones
-             </p>
-             <p>
-                Diplomada en postítulo en la condición del espectro del autismo, enfoque transdisciplinario y calidad de vida durante todo el ciclo vital, cuenta con certificaciones internacionales de Adi- R y ADOS-2, ESDM Nivel Avanzado, TEACCH, Sistema de comunicación aumentativa alternativa PECS 1 y 2, IDTEL, Selectividad alimentaria y abordaje nutricional en Autismo, PEP-3, Tutor Sombra.             </p>
-         </div>
-       </div>
-    </section>
 
+    <!--contacto mapa de google-->
+
+    <section class="container servicios">
+        <h4 style="  font-family: roboto-bold;
+        color:#664092;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 46px; padding-bottom: 1em;">Nuestros servicios son:</h4>
+        <ul>
+            <li>
+                Evaluación Clínica: Autismo.
+            </li>
+            <li>
+                Evaluación fonoaudiológica.
+            </li>
+            <li>
+                Evaluación Terapia ocupacional.
+            </li>
+            <li>
+                Evaluación Psicológica.
+            </li>
+            <li>
+                Evaluación integral selectividad alimentaria.
+            </li>
+            <li>
+                Comunidad Casperia para familias.
+            </li>
+            <li>
+                Servicios de Acompañamiento escolar (Tutor sombra).
+            </li>
+            <li>
+                Terapia Fonoaudiológica individual.
+            </li>
+            <li>
+                Sesión de Terapia ocupacional, individual.
+            </li>
+            <li>
+                Terapia psicológica individual.
+            </li>
+            <li>
+                Terapia psicológica grupo familiar.
+            </li>
+            <li>
+                Terapia psicológica Individual para niños/as.
+            </li>
+            <li>
+                Terapia psicológica Individual para todo el ciclo vital en trastornos del neurodesarrollo.
+            </li>
+            <li>
+                Terapia de alimentación.
+            </li>
+
+            <li>
+                Taller grupal “Juguemos” (Máximo 5 niños/as conforman el grupo).
+            </li>
+            <li>
+                Taller de transición a la vida adulta.
+            </li>
+            <li>
+                Charlas educativas de la condición del espectro del autismo.
+            </li>
+        </ul>
+    </section>
 
 
 
@@ -103,10 +141,10 @@
         <div class="redes-sociales">
             <div class="contenedor-imagenes">
                 <div>
-                    <img src="/imagenes/footer-facebook.png" alt="facebook">
+                    <a href=""><img src="/imagenes/footer-facebook.png" alt="facebook"></a>
                 </div>
                 <div>
-                    <img src="/imagenes/footer-instagram.png" alt="instagram">
+                    <a href=""><img src="/imagenes/footer-instagram.png" alt="instagram"></a>
                 </div>
             </div>
         </div>
@@ -134,7 +172,7 @@
                         <div class="contenedor-telefono">
                             <img src="/imagenes/footer-llamada.png" alt="llamada">
                             <span class="telefono">
-                                (123) 456-7890 <br>
+                                (+569) 5413 5585<br>
                             </span>
                         </div>
                         <img src="/imagenes/footer-ubicacion.png" alt="llamada">
@@ -142,7 +180,11 @@
                     </div>
                 </div>
             </div>
+            <div class="container derechos-reservados">
+                <h5 class="m-0 p-1">Copyright © 2022 <b>Minerva</b>.</h5>
+            </div>
         </div>
+        
     </footer>
 
 
