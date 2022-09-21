@@ -18,6 +18,11 @@
     font-family: roboto;
 }
 
+.navbar-nav li:last-child{
+    display: none;
+}
+
+
 /*botones*/
 
 a {
