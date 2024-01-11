@@ -9,3 +9,8 @@
     }
     
 }
+
+section.instagram.container .row img {
+    height: 500px;
+    object-fit: cover;
+}
